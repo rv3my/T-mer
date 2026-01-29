@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  font-family: 'Poppins', sans-serif;
+  color: #A64D79;
+  background: #1A1A1D;
+}
+.container {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  border: 5px solid #6A1E55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  font-size: 2.5rem;
+  font-weight: 200;
+  position: relative;
+  box-shadow: 10px 10px 2px #A64D79, 0 0 40px #A64D79;
+}
+input {
+  padding: 5px;
+  border-radius: 7px 15px;
+  border: 1px solid #A64D79;
+  background: #000;
+  color: antiquewhite;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  margin-bottom: 25px;
+  width: 200px;
+  box-shadow: 0 0 10px #A64D79;
+}
+
+input::placeholder {
+  color: #A64D79;
+  font-family: "Shadows Into Light", cursive;
+  opacity: 0.7;
+}
+button {
+  padding: 10px 30px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px 15px;
+  background: linear-gradient(135deg, #3B1C32, #6A1E55);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #A64D79;
+}
+button:hover {
+
+  background: linear-gradient(135deg, #A64D79, #A64D79);
+  box-shadow: 0 0 25px #3B1C32, 0 0 40px #3B1C32;
+  transform: scale(1.10);
+}
